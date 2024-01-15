@@ -103,6 +103,7 @@ a {
   font-weight: 700;
   line-height: 130%; /* 26px */
   text-transform: uppercase;
+  cursor: pointer;
 }
 .top_content .btn {
   padding: 16px 22px;
@@ -206,20 +207,34 @@ a {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
+button {
+  cursor: pointer;
+}
+.btn {
+  cursor: pointer;
+}
 .team_box_bottom_content {
   display: flex;
   padding: 0px 30px 40px 30px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  justify-content: space-between;
   align-self: stretch;
+  height: 100%;
+  gap: 32px;
+}
+.team_box_item_logo {
+  width: 100%;
+}
+.team_box_item_logo img {
+  width: 100%;
 }
 .team_box_bottom_content_tittle {
   color: var(--Gold, #b6a37e);
   leading-trim: both;
   text-edge: cap;
 
-  font-size: 30px;
+  font-size: 29px;
   font-style: normal;
   font-weight: 600;
   line-height: 130%; /* 39px */
